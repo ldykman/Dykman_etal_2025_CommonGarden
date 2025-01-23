@@ -14,7 +14,7 @@ library(ggplot2)
 
 # SETTING WORKING DIRECTORY
 
-path <- "/Users/laurendykman/Desktop/github/Dykman_etal_2025_EcologicalApplications"
+path <- "/Users/laurendykman/Desktop/github/Dykman_etal_2025_CommonGarden"
 
 getwd()
 setwd(path)
