@@ -1,0 +1,394 @@
+id,date,plot_no,population,plant,total,stipe_without_float,stipe_with_float,holdfast,float,blade,bleaching_condition,area_bleached,area_torn,sori,notes
+1,2023-03-17,1,Vancouver,1,60,0,0,NA,NA,60,NA,NA,NA,NA,
+2,2023-03-17,1,Vancouver,2,95,0,0,NA,NA,95,NA,NA,NA,NA,
+3,2023-03-17,1,Vancouver,3,70,0,0,NA,NA,70,NA,NA,NA,NA,
+4,2023-03-17,1,Vancouver,4,70,0,0,NA,NA,70,NA,NA,NA,NA,
+5,2023-03-17,1,Vancouver,5,90,0,0,NA,NA,90,NA,NA,NA,NA,
+6,2023-03-17,1,Vancouver,6,70,0,0,NA,NA,70,NA,NA,NA,NA,
+7,2023-03-17,1,Vancouver,7,120,0,0,NA,NA,120,NA,NA,NA,NA,
+8,2023-03-17,1,Vancouver,8,65,0,0,NA,NA,65,NA,NA,NA,NA,
+9,2023-03-17,1,Vancouver,9,40,0,0,NA,NA,40,NA,NA,NA,NA,
+10,2023-03-17,1,Vancouver,10,40,0,0,NA,NA,40,NA,NA,NA,NA,
+11,2023-03-17,2,Oyster River,1,30,0,0,NA,NA,30,NA,NA,NA,NA,
+12,2023-03-17,2,Oyster River,2,40,5,5,NA,NA,35,NA,NA,NA,NA,
+13,2023-03-17,2,Oyster River,3,35,0,0,NA,NA,35,NA,NA,NA,NA,
+14,2023-03-17,2,Oyster River,4,40,0,0,NA,NA,40,NA,NA,NA,NA,
+15,2023-03-17,2,Oyster River,5,40,0,0,NA,NA,40,NA,NA,NA,NA,
+16,2023-03-17,2,Oyster River,6,40,0,0,NA,NA,40,NA,NA,NA,NA,
+17,2023-03-17,2,Oyster River,7,40,0,0,NA,NA,40,NA,NA,NA,NA,
+18,2023-03-17,2,Oyster River,8,30,0,0,NA,NA,30,NA,NA,NA,NA,
+19,2023-03-17,2,Oyster River,9,30,0,0,NA,NA,30,NA,NA,NA,NA,
+20,2023-03-17,2,Oyster River,10,35,0,0,NA,NA,35,NA,NA,NA,NA,
+21,2023-03-17,3,Victoria,1,20,0,0,NA,NA,20,NA,NA,NA,NA,
+22,2023-03-17,3,Victoria,2,35,0,0,NA,NA,35,NA,NA,NA,NA,
+23,2023-03-17,3,Victoria,3,60,10,10,NA,NA,50,NA,NA,NA,NA,
+24,2023-03-17,3,Victoria,4,50,0,0,NA,NA,50,NA,NA,NA,NA,
+25,2023-03-17,3,Victoria,5,60,10,10,NA,NA,50,NA,NA,NA,NA,
+26,2023-03-17,3,Victoria,6,110,20,20,NA,NA,90,NA,NA,NA,NA,
+27,2023-03-17,3,Victoria,7,50,0,0,NA,NA,50,NA,NA,NA,NA,
+28,2023-03-17,3,Victoria,8,55,0,0,NA,NA,55,NA,NA,NA,NA,
+29,2023-03-17,3,Victoria,9,40,0,0,NA,NA,40,NA,NA,NA,NA,
+30,2023-03-17,3,Victoria,10,35,0,0,NA,NA,35,NA,NA,NA,NA,
+31,2023-03-17,4,Brown's Bay,1,220,50,70,10,10,150,NA,NA,NA,NA,
+32,2023-03-17,4,Brown's Bay,2,340,80,120,20,20,220,NA,NA,NA,NA,
+33,2023-03-17,4,Brown's Bay,3,290,60,80,10,10,210,NA,NA,NA,NA,
+34,2023-03-17,4,Brown's Bay,4,350,70,80,10,NA,270,NA,NA,NA,NA,
+35,2023-03-17,4,Brown's Bay,5,370,120,150,NA,30,220,NA,NA,NA,NA,
+36,2023-03-17,4,Brown's Bay,6,280,80,100,NA,20,180,NA,NA,NA,NA,
+37,2023-03-17,4,Brown's Bay,7,260,60,80,NA,20,180,NA,NA,NA,NA,
+38,2023-03-17,4,Brown's Bay,8,300,70,100,20,20,200,NA,NA,NA,NA,
+39,2023-03-17,4,Brown's Bay,9,300,100,135,20,25,165,NA,NA,NA,NA,
+40,2023-03-17,4,Brown's Bay,10,500,180,220,20,30,280,NA,NA,NA,NA,"Divers took a few more measurements, only recorded first 10"
+41,2023-03-17,5,Vancouver,1,45,0,0,NA,NA,45,NA,NA,NA,NA,
+42,2023-03-17,5,Vancouver,2,50,0,0,NA,NA,50,NA,NA,NA,NA,
+43,2023-03-17,5,Vancouver,3,100,20,20,NA,NA,80,NA,NA,NA,NA,
+44,2023-03-17,5,Vancouver,4,110,20,20,NA,NA,90,NA,NA,NA,NA,
+45,2023-03-17,5,Vancouver,5,40,0,0,NA,NA,40,NA,NA,NA,NA,
+46,2023-03-17,5,Vancouver,6,60,0,0,NA,NA,60,NA,NA,NA,NA,
+47,2023-03-17,5,Vancouver,7,40,0,0,NA,NA,40,NA,NA,NA,NA,
+48,2023-03-17,5,Vancouver,8,50,0,50,NA,NA,0,NA,NA,NA,NA,
+49,2023-03-17,5,Vancouver,9,55,0,0,0,0,55,NA,NA,NA,NA,
+50,2023-03-17,5,Vancouver,10,130,30,30,NA,1,100,NA,NA,NA,NA,
+51,2023-03-17,6,Victoria,1,50,15,15,10,NA,35,NA,NA,NA,NA,
+52,2023-03-17,6,Victoria,2,50,10,10,NA,NA,40,NA,NA,NA,NA,
+53,2023-03-17,6,Victoria,3,40,0,0,NA,NA,40,NA,NA,NA,NA,
+54,2023-03-17,6,Victoria,4,75,10,10,10,NA,65,NA,NA,NA,NA,
+55,2023-03-17,6,Victoria,5,90,10,10,10,NA,80,NA,NA,NA,NA,
+56,2023-03-17,6,Victoria,6,80,10,10,10,NA,70,NA,NA,NA,NA,
+57,2023-03-17,6,Victoria,7,95,0,0,NA,NA,95,NA,NA,NA,NA,
+58,2023-03-17,6,Victoria,8,80,20,20,10,NA,60,NA,NA,NA,NA,
+59,2023-03-17,6,Victoria,9,80,10,10,NA,NA,70,NA,NA,NA,NA,
+60,2023-03-17,6,Victoria,10,130,20,20,10,NA,110,NA,NA,NA,NA,"Divers took a few more measurements, only recorded first 10"
+61,2023-03-17,7,Oyster River,1,60,10,10,NA,NA,50,NA,NA,NA,NA,
+62,2023-03-17,7,Oyster River,2,90,15,15,NA,NA,75,NA,NA,NA,NA,
+63,2023-03-17,7,Oyster River,3,30,0,0,NA,NA,30,NA,NA,NA,NA,
+64,2023-03-17,7,Oyster River,4,30,0,0,NA,NA,30,NA,NA,NA,NA,
+65,2023-03-17,7,Oyster River,5,30,0,0,NA,NA,30,NA,NA,NA,NA,
+66,2023-03-17,7,Oyster River,6,40,0,0,NA,NA,40,NA,NA,NA,NA,
+67,2023-03-17,7,Oyster River,7,30,0,0,NA,NA,30,NA,NA,NA,NA,
+68,2023-03-17,7,Oyster River,8,40,0,0,NA,NA,40,NA,NA,NA,NA,
+69,2023-03-17,7,Oyster River,9,30,0,0,NA,NA,30,NA,NA,NA,NA,
+70,2023-03-17,7,Oyster River,10,35,0,0,NA,NA,35,NA,NA,NA,NA,
+71,2023-03-17,8,Brown's Bay,1,450,140,210,NA,20,240,NA,NA,NA,NA,
+72,2023-03-17,8,Brown's Bay,2,400,130,145,10,15,255,NA,NA,NA,NA,
+73,2023-03-17,8,Brown's Bay,3,300,110,125,NA,15,175,NA,NA,NA,NA,
+74,2023-03-17,8,Brown's Bay,4,750,280,315,40,35,435,NA,NA,NA,NA,"extreme approximation, ruler was only 30 cm"
+75,2023-03-17,8,Brown's Bay,5,600,200,230,30,30,370,NA,NA,NA,NA,"extreme approximation, ruler was only 30 cm"
+76,2023-03-17,8,Brown's Bay,6,400,100,120,30,20,280,NA,NA,NA,NA,
+77,2023-03-17,8,Brown's Bay,7,500,170,190,30,20,310,NA,NA,NA,NA,
+78,2023-03-17,8,Brown's Bay,8,450,140,150,NA,10,300,NA,NA,NA,NA,this was right next to #7
+79,2023-03-17,8,Brown's Bay,9,170,40,45,NA,5,125,NA,NA,NA,NA,
+80,2023-03-17,8,Brown's Bay,10,170,40,45,NA,5,125,NA,NA,NA,NA,this was right next to #9
+81,2023-03-17,9,Brown's Bay,1,450,180,205,NA,25,245,NA,NA,NA,NA,
+82,2023-03-17,9,Brown's Bay,2,280,160,180,20,20,100,NA,NA,NA,NA,
+83,2023-03-17,9,Brown's Bay,3,190,100,110,NA,10,80,NA,NA,NA,NA,
+84,2023-03-17,9,Brown's Bay,4,220,120,130,10,10,90,NA,NA,NA,NA,
+85,2023-03-17,9,Brown's Bay,5,500,190,210,20,20,290,NA,NA,NA,NA,
+86,2023-03-17,9,Brown's Bay,6,550,200,220,20,20,330,NA,NA,NA,NA,
+87,2023-03-17,9,Brown's Bay,7,350,100,115,NA,15,235,NA,NA,NA,NA,
+88,2023-03-17,9,Brown's Bay,8,400,130,145,20,15,255,NA,NA,NA,NA,
+89,2023-03-17,9,Brown's Bay,9,650,270,295,NA,25,355,NA,NA,NA,NA,
+90,2023-03-17,9,Brown's Bay,10,500,160,180,20,20,320,NA,NA,NA,NA,
+91,2023-03-17,10,Vancouver,1,30,0,0,NA,NA,30,NA,NA,NA,NA,
+92,2023-03-17,10,Vancouver,2,45,0,0,NA,NA,45,NA,NA,NA,NA,
+93,2023-03-17,10,Vancouver,3,40,0,0,NA,NA,40,NA,NA,NA,NA,
+94,2023-03-17,10,Vancouver,4,65,15,15,NA,NA,50,NA,NA,NA,NA,
+95,2023-03-17,10,Vancouver,5,155,30,25,NA,NA,130,NA,NA,NA,NA,
+96,2023-03-17,10,Vancouver,6,70,10,10,NA,NA,60,NA,NA,NA,NA,
+97,2023-03-17,10,Vancouver,7,130,25,25,NA,NA,105,NA,NA,NA,NA,
+98,2023-03-17,10,Vancouver,8,130,30,30,NA,NA,100,NA,NA,NA,NA,
+99,2023-03-17,10,Vancouver,9,50,0,0,NA,NA,50,NA,NA,NA,NA,
+100,2023-03-17,10,Vancouver,10,60,10,10,NA,NA,50,NA,NA,NA,NA,
+101,2023-03-17,11,Victoria,1,70,10,10,NA,NA,60,NA,NA,NA,NA,
+102,2023-03-17,11,Victoria,2,60,0,0,NA,NA,60,NA,NA,NA,NA,
+103,2023-03-17,11,Victoria,3,70,10,10,NA,NA,60,NA,NA,NA,NA,
+104,2023-03-17,11,Victoria,4,90,15,15,NA,NA,75,NA,NA,NA,NA,
+105,2023-03-17,11,Victoria,5,100,10,10,NA,NA,90,NA,NA,NA,NA,
+106,2023-03-17,11,Victoria,6,70,5,5,NA,NA,65,NA,NA,NA,NA,
+107,2023-03-17,11,Victoria,7,80,10,10,NA,NA,70,NA,NA,NA,NA,
+108,2023-03-17,11,Victoria,8,110,20,25,10,5,85,NA,NA,NA,NA,
+109,2023-03-17,11,Victoria,9,55,5,5,NA,NA,50,NA,NA,NA,NA,
+110,2023-03-17,11,Victoria,10,85,10,10,NA,NA,75,NA,NA,NA,NA,"Divers took a few more measurements, only recorded first 10"
+111,2023-03-17,12,Oyster River,1,70,5,5,NA,NA,65,NA,NA,NA,NA,
+112,2023-03-17,12,Oyster River,2,55,0,0,NA,NA,55,NA,NA,NA,NA,"Kelp doing very poorly here - filamentous algae on blades, thin"
+113,2023-03-17,12,Oyster River,3,40,2.5,2.5,NA,NA,37.5,NA,NA,NA,NA,
+114,2023-03-17,12,Oyster River,4,40,0,0,NA,NA,40,NA,NA,NA,NA,Cannot see stipes because of algae fouling
+115,2023-03-17,12,Oyster River,5,70,15,15,NA,NA,55,NA,NA,NA,NA,
+116,2023-03-17,12,Oyster River,6,40,0,0,NA,NA,40,NA,NA,NA,NA,
+117,2023-03-17,12,Oyster River,7,35,0,0,NA,NA,35,NA,NA,NA,NA,
+118,2023-03-17,12,Oyster River,8,35,0,0,NA,NA,35,NA,NA,NA,NA,
+119,2023-03-17,12,Oyster River,9,100,15,15,NA,NA,85,NA,NA,NA,NA,
+120,2023-03-17,12,Oyster River,10,40,0,0,NA,NA,40,NA,NA,NA,NA,
+121,2023-03-17,13,Gabriola,1,30,0,0,NA,NA,30,NA,NA,NA,NA,
+122,2023-03-17,13,Gabriola,2,30,0,0,NA,NA,30,NA,NA,NA,NA,
+123,2023-03-17,13,Gabriola,3,40,0,0,NA,NA,40,NA,NA,NA,NA,
+124,2023-03-17,13,Gabriola,4,35,0,0,NA,NA,35,NA,NA,NA,NA,
+125,2023-03-17,13,Gabriola,5,30,0,0,NA,NA,30,NA,NA,NA,NA,
+126,2023-03-17,13,Gabriola,6,30,0,0,NA,NA,30,NA,NA,NA,NA,
+127,2023-03-17,13,Gabriola,7,40,0,0,NA,NA,40,NA,NA,NA,NA,
+128,2023-03-17,13,Gabriola,8,40,10,10,NA,NA,30,NA,NA,NA,NA,
+129,2023-03-17,13,Gabriola,9,30,0,0,NA,NA,30,NA,NA,NA,NA,
+130,2023-03-17,13,Gabriola,10,40,0,0,NA,NA,40,NA,NA,NA,NA,
+131,2023-03-17,14,Gabriola,1,40,0,0,NA,NA,40,NA,NA,NA,NA,
+132,2023-03-17,14,Gabriola,2,50,0,0,NA,NA,50,NA,NA,NA,NA,
+133,2023-03-17,14,Gabriola,3,30,0,0,NA,NA,30,NA,NA,NA,NA,
+134,2023-03-17,14,Gabriola,4,30,0,0,NA,NA,30,NA,NA,NA,NA,
+135,2023-03-17,14,Gabriola,5,30,0,0,NA,NA,30,NA,NA,NA,NA,
+136,2023-03-17,14,Gabriola,6,35,0,0,NA,NA,35,NA,NA,NA,NA,
+137,2023-03-17,14,Gabriola,7,35,0,0,NA,NA,35,NA,NA,NA,NA,
+138,2023-03-17,14,Gabriola,8,55,10,10,NA,NA,45,NA,NA,NA,NA,
+139,2023-03-17,14,Gabriola,9,20,0,0,NA,NA,20,NA,NA,NA,NA,"All of this kelp doing poorly, filamentous algae on line"
+140,2023-03-17,14,Gabriola,10,30,0,0,NA,NA,30,NA,NA,NA,NA,"Divers took a few more measurements, only recorded first 10"
+141,2023-05-04,1,Vancouver,1,NA,NA,105,NA,8,NA,NA,NA,NA,NA,
+142,2023-05-04,1,Vancouver,2,NA,NA,550,NA,NA,NA,NA,NA,NA,NA,
+143,2023-05-04,1,Vancouver,3,NA,NA,640,NA,30,NA,NA,NA,NA,NA,
+144,2023-05-04,1,Vancouver,4,NA,NA,300,NA,18,NA,NA,NA,NA,NA,
+145,2023-05-04,1,Vancouver,5,NA,NA,1055,NA,35,NA,NA,NA,NA,NA,
+146,2023-05-04,1,Vancouver,6,NA,NA,680,NA,25,NA,NA,NA,NA,NA,
+147,2023-05-04,1,Vancouver,7,NA,NA,736,NA,22,NA,NA,NA,NA,NA,
+148,2023-05-04,1,Vancouver,8,NA,NA,370,NA,18,NA,NA,NA,NA,NA,
+149,2023-05-04,1,Vancouver,9,NA,NA,1400,NA,32,NA,NA,NA,NA,NA,
+150,2023-05-04,1,Vancouver,10,NA,NA,160,NA,11,NA,NA,NA,NA,NA,
+151,2023-05-04,3,Victoria,1,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,
+152,2023-05-04,3,Victoria,2,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,
+153,2023-05-04,3,Victoria,3,NA,NA,160,NA,16,NA,NA,NA,NA,NA,
+154,2023-05-04,3,Victoria,4,NA,NA,135,NA,13,NA,NA,NA,NA,NA,
+155,2023-05-04,3,Victoria,5,NA,NA,176,NA,18,NA,NA,NA,NA,NA,
+156,2023-05-04,3,Victoria,6,NA,NA,117,NA,9,NA,NA,NA,NA,NA,
+157,2023-05-04,3,Victoria,7,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,
+158,2023-05-04,3,Victoria,8,NA,NA,412,NA,39,NA,NA,NA,NA,NA,
+159,2023-05-04,3,Victoria,9,NA,NA,300,NA,25,NA,NA,NA,NA,NA,
+160,2023-05-04,3,Victoria,10,NA,NA,173,NA,15,NA,NA,NA,NA,NA,
+161,2023-05-04,5,Vancouver,1,NA,NA,400,NA,22,NA,NA,NA,NA,NA,
+162,2023-05-04,5,Vancouver,2,NA,NA,490,NA,25,NA,NA,NA,NA,NA,
+163,2023-05-04,5,Vancouver,3,NA,NA,814,NA,29,NA,NA,NA,NA,NA,
+164,2023-05-04,5,Vancouver,4,NA,NA,555,NA,23,NA,NA,NA,NA,NA,
+165,2023-05-04,5,Vancouver,5,NA,NA,980,NA,35,NA,NA,NA,NA,NA,
+166,2023-05-04,5,Vancouver,6,NA,NA,122,NA,3,NA,NA,NA,NA,NA,
+167,2023-05-04,5,Vancouver,7,NA,NA,417,NA,22,NA,NA,NA,NA,NA,
+168,2023-05-04,5,Vancouver,8,NA,NA,264,NA,16,NA,NA,NA,NA,NA,
+169,2023-05-04,5,Vancouver,9,NA,NA,770,NA,26,NA,NA,NA,NA,NA,
+170,2023-05-04,5,Vancouver,10,NA,NA,513,NA,26,NA,NA,NA,NA,NA,
+171,2023-05-04,7,Oyster River,1,NA,NA,60,NA,5,NA,NA,NA,NA,NA,
+172,2023-05-04,7,Oyster River,2,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,
+173,2023-05-04,7,Oyster River,3,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,
+174,2023-05-04,7,Oyster River,4,NA,NA,175,NA,20,NA,NA,NA,NA,NA,
+175,2023-05-04,7,Oyster River,5,NA,NA,42,NA,4,NA,NA,NA,NA,NA,
+176,2023-05-04,7,Oyster River,6,NA,NA,73,NA,5,NA,NA,NA,NA,NA,
+177,2023-05-04,7,Oyster River,7,NA,NA,237,NA,19,NA,NA,NA,NA,NA,
+178,2023-05-04,7,Oyster River,8,NA,NA,112,NA,8,NA,NA,NA,NA,NA,
+179,2023-05-04,7,Oyster River,9,NA,NA,271,NA,20,NA,NA,NA,NA,NA,
+180,2023-05-04,7,Oyster River,10,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,
+181,2023-05-04,9,Brown's Bay,1,NA,NA,1130,NA,49,NA,NA,NA,NA,NA,
+182,2023-05-04,9,Brown's Bay,2,NA,NA,500,NA,33,NA,NA,NA,NA,NA,
+183,2023-05-04,9,Brown's Bay,3,NA,NA,215,NA,21,NA,NA,NA,NA,NA,
+184,2023-05-04,9,Brown's Bay,4,NA,NA,1065,NA,43,NA,NA,NA,NA,NA,
+185,2023-05-04,9,Brown's Bay,5,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,
+186,2023-05-04,9,Brown's Bay,6,NA,NA,1245,NA,58,NA,NA,NA,NA,NA,
+187,2023-05-04,9,Brown's Bay,7,NA,NA,152,NA,19,NA,NA,NA,NA,NA,
+188,2023-05-04,9,Brown's Bay,8,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,
+189,2023-05-04,9,Brown's Bay,9,NA,NA,1370,NA,44,NA,NA,NA,NA,NA,
+190,2023-05-04,9,Brown's Bay,10,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,
+191,2023-05-04,11,Victoria,1,NA,NA,130,NA,5,NA,NA,NA,NA,NA,
+192,2023-05-04,11,Victoria,2,NA,NA,930,NA,31,NA,NA,NA,NA,NA,
+193,2023-05-04,11,Victoria,3,NA,NA,180,NA,17,NA,NA,NA,NA,NA,
+194,2023-05-04,11,Victoria,4,NA,NA,1080,NA,48,NA,NA,NA,NA,NA,
+195,2023-05-04,11,Victoria,5,NA,NA,413,NA,33,NA,NA,NA,NA,NA,
+196,2023-05-04,11,Victoria,6,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,
+197,2023-05-04,11,Victoria,7,NA,NA,127,NA,12,NA,NA,NA,NA,NA,
+198,2023-05-04,11,Victoria,8,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,
+199,2023-05-04,11,Victoria,9,NA,NA,558,NA,40,NA,NA,NA,NA,NA,
+200,2023-05-04,11,Victoria,10,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,
+201,2023-05-04,13,Gabriola,1,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,poor survivorship; only 6 individual bull kelp survive
+202,2023-05-04,13,Gabriola,2,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,poor survivorship; only 6 individual bull kelp survive
+203,2023-05-04,13,Gabriola,3,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,poor survivorship; only 6 individual bull kelp survive
+204,2023-05-04,13,Gabriola,4,NA,NA,165,NA,21,NA,NA,NA,NA,NA,poor survivorship; only 6 individual bull kelp survive
+205,2023-05-04,13,Gabriola,5,NA,NA,283,NA,25,NA,NA,NA,NA,NA,poor survivorship; only 6 individual bull kelp survive
+206,2023-05-04,13,Gabriola,6,NA,NA,90,NA,17,NA,NA,NA,NA,NA,poor survivorship; only 6 individual bull kelp survive
+207,2023-05-04,13,Gabriola,7,NA,NA,207,NA,20,NA,NA,NA,NA,NA,poor survivorship; only 6 individual bull kelp survive
+208,2023-05-04,13,Gabriola,8,NA,NA,95,NA,70,NA,NA,NA,NA,NA,poor survivorship; only 6 individual bull kelp survive
+209,2023-05-04,13,Gabriola,9,NA,NA,65,NA,8,NA,NA,NA,NA,NA,poor survivorship; only 6 individual bull kelp survive
+210,2023-05-04,13,Gabriola,10,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,poor survivorship; only 6 individual bull kelp survive
+211,2023-05-04,14,Gabriola,1,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,line starts ~6 meters in; poor survivorship; only 7 individuals survive but one is >1m tall
+212,2023-05-04,14,Gabriola,2,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,line starts ~6 meters in; poor survivorship; only 7 individuals survive but one is >1m tall
+213,2023-05-04,14,Gabriola,3,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,line starts ~6 meters in; poor survivorship; only 7 individuals survive but one is >1m tall
+214,2023-05-04,14,Gabriola,4,NA,NA,121,NA,11,NA,NA,NA,NA,NA,line starts ~6 meters in; poor survivorship; only 7 individuals survive but one is >1m tall
+215,2023-05-04,14,Gabriola,5,NA,NA,880,NA,41,NA,NA,NA,NA,NA,line starts ~6 meters in; poor survivorship; only 7 individuals survive but one is >1m tall
+216,2023-05-04,14,Gabriola,6,NA,NA,540,NA,36,NA,NA,NA,NA,NA,line starts ~6 meters in; poor survivorship; only 7 individuals survive but one is >1m tall
+217,2023-05-04,14,Gabriola,7,NA,NA,205,NA,22,NA,NA,NA,NA,NA,line starts ~6 meters in; poor survivorship; only 7 individuals survive but one is >1m tall
+218,2023-05-04,14,Gabriola,8,NA,NA,395,NA,25,NA,NA,NA,NA,NA,line starts ~6 meters in; poor survivorship; only 7 individuals survive but one is >1m tall
+219,2023-05-04,14,Gabriola,9,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,line starts ~6 meters in; poor survivorship; only 7 individuals survive but one is >1m tall
+220,2023-05-04,14,Gabriola,10,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,line starts ~6 meters in; poor survivorship; only 7 individuals survive but one is >1m tall
+221,2023-05-05,2,Oyster River,1,NA,NA,132,NA,14,NA,NA,NA,NA,NA,medium sized kelps some krinkly fronds
+222,2023-05-05,2,Oyster River,2,NA,NA,62,NA,5,NA,NA,NA,NA,NA,medium sized kelps some krinkly fronds
+223,2023-05-05,2,Oyster River,3,NA,NA,382,NA,21,NA,NA,NA,NA,NA,medium sized kelps some krinkly fronds
+224,2023-05-05,2,Oyster River,4,NA,NA,127,NA,16,NA,NA,NA,NA,NA,medium sized kelps some krinkly fronds
+225,2023-05-05,2,Oyster River,5,NA,NA,152,NA,18,NA,NA,NA,NA,NA,medium sized kelps some krinkly fronds
+226,2023-05-05,2,Oyster River,6,NA,NA,532,NA,30,NA,NA,NA,NA,NA,medium sized kelps some krinkly fronds
+227,2023-05-05,2,Oyster River,7,NA,NA,300,NA,22,NA,NA,NA,NA,NA,medium sized kelps some krinkly fronds
+228,2023-05-05,2,Oyster River,8,NA,NA,123,NA,12,NA,NA,NA,NA,NA,medium sized kelps some krinkly fronds
+229,2023-05-05,2,Oyster River,9,NA,NA,214,NA,21,NA,NA,NA,NA,NA,medium sized kelps some krinkly fronds
+230,2023-05-05,2,Oyster River,10,NA,NA,212,NA,20,NA,NA,NA,NA,NA,medium sized kelps some krinkly fronds
+231,2023-05-05,4,Brown's Bay,1,NA,NA,235,NA,26,NA,NA,NA,NA,NA,line bowed upward with tall thick growth
+232,2023-05-05,4,Brown's Bay,2,NA,NA,302,NA,20,NA,NA,NA,NA,NA,line bowed upward with tall thick growth
+233,2023-05-05,4,Brown's Bay,3,NA,NA,1290,NA,47,NA,NA,NA,NA,NA,line bowed upward with tall thick growth
+234,2023-05-05,4,Brown's Bay,4,NA,NA,166,NA,17,NA,NA,NA,NA,NA,line bowed upward with tall thick growth
+235,2023-05-05,4,Brown's Bay,5,NA,NA,635,NA,35,NA,NA,NA,NA,NA,line bowed upward with tall thick growth
+236,2023-05-05,4,Brown's Bay,6,NA,NA,870,NA,32,NA,NA,NA,NA,NA,line bowed upward with tall thick growth
+237,2023-05-05,4,Brown's Bay,7,NA,NA,285,NA,24,NA,NA,NA,NA,NA,line bowed upward with tall thick growth
+238,2023-05-05,4,Brown's Bay,8,NA,NA,282,NA,24,NA,NA,NA,NA,NA,line bowed upward with tall thick growth
+239,2023-05-05,4,Brown's Bay,9,NA,NA,975,NA,45,NA,NA,NA,NA,NA,line bowed upward with tall thick growth
+240,2023-05-05,4,Brown's Bay,10,NA,NA,525,NA,32,NA,NA,NA,NA,NA,line bowed upward with tall thick growth
+241,2023-05-05,6,Victoria,1,NA,NA,462,NA,32,NA,NA,NA,NA,NA,nice thick growth line bowed upward. Saw shrimp and amphipods on the kelp
+242,2023-05-05,6,Victoria,2,NA,NA,363,NA,25,NA,NA,NA,NA,NA,nice thick growth line bowed upward. Saw shrimp and amphipods on the kelp
+243,2023-05-05,6,Victoria,3,NA,NA,234,NA,17,NA,NA,NA,NA,NA,nice thick growth line bowed upward. Saw shrimp and amphipods on the kelp
+244,2023-05-05,6,Victoria,4,NA,NA,192,NA,12,NA,NA,NA,NA,NA,nice thick growth line bowed upward. Saw shrimp and amphipods on the kelp
+245,2023-05-05,6,Victoria,5,NA,NA,190,NA,8,NA,NA,NA,NA,NA,nice thick growth line bowed upward. Saw shrimp and amphipods on the kelp
+246,2023-05-05,6,Victoria,6,NA,NA,320,NA,20,NA,NA,NA,NA,NA,nice thick growth line bowed upward. Saw shrimp and amphipods on the kelp
+247,2023-05-05,6,Victoria,7,NA,NA,228,NA,22,NA,NA,NA,NA,NA,nice thick growth line bowed upward. Saw shrimp and amphipods on the kelp
+248,2023-05-05,6,Victoria,8,NA,NA,500,NA,39,NA,NA,NA,NA,NA,nice thick growth line bowed upward. Saw shrimp and amphipods on the kelp
+249,2023-05-05,6,Victoria,9,NA,NA,1450,NA,45,NA,NA,NA,NA,NA,nice thick growth line bowed upward. Saw shrimp and amphipods on the kelp
+250,2023-05-05,6,Victoria,10,NA,NA,235,NA,18,NA,NA,NA,NA,NA,nice thick growth line bowed upward. Saw shrimp and amphipods on the kelp
+251,2023-05-05,6,Victoria,11,NA,NA,665,NA,44,NA,NA,NA,NA,NA,nice thick growth line bowed upward. Saw shrimp and amphipods on the kelp
+252,2023-05-05,8,Brown's Bay,1,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,tried to measure the longest but was not the longest. Was 2460 long and 60 float diameter.
+253,2023-05-05,8,Brown's Bay,2,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,tried to measure the longest but was not the longest. Was 2460 long and 60 float diameter.
+254,2023-05-05,8,Brown's Bay,3,NA,NA,665,NA,35,NA,NA,NA,NA,NA,tried to measure the longest but was not the longest. Was 2460 long and 60 float diameter.
+255,2023-05-05,8,Brown's Bay,4,NA,NA,180,NA,14,NA,NA,NA,NA,NA,tried to measure the longest but was not the longest. Was 2460 long and 60 float diameter.
+256,2023-05-05,8,Brown's Bay,5,NA,NA,682,NA,35,NA,NA,NA,NA,NA,tried to measure the longest but was not the longest. Was 2460 long and 60 float diameter.
+257,2023-05-05,8,Brown's Bay,6,NA,NA,255,NA,18,NA,NA,NA,NA,NA,tried to measure the longest but was not the longest. Was 2460 long and 60 float diameter.
+258,2023-05-05,8,Brown's Bay,7,NA,NA,3460,NA,65,NA,NA,NA,NA,NA,tried to measure the longest but was not the longest. Was 2460 long and 60 float diameter.
+259,2023-05-05,8,Brown's Bay,8,NA,NA,1185,NA,37,NA,NA,NA,NA,NA,tried to measure the longest but was not the longest. Was 2460 long and 60 float diameter.
+260,2023-05-05,8,Brown's Bay,9,NA,NA,228,NA,18,NA,NA,NA,NA,NA,tried to measure the longest but was not the longest. Was 2460 long and 60 float diameter.
+261,2023-05-05,8,Brown's Bay,10,NA,NA,885,NA,43,NA,NA,NA,NA,NA,tried to measure the longest but was not the longest. Was 2460 long and 60 float diameter.
+262,2023-05-05,10,Vancouver,1,NA,NA,77,NA,8,NA,NA,NA,NA,NA,
+263,2023-05-05,10,Vancouver,2,NA,NA,180,NA,15,NA,NA,NA,NA,NA,
+264,2023-05-05,10,Vancouver,3,NA,NA,855,NA,36,NA,NA,NA,NA,NA,
+265,2023-05-05,10,Vancouver,4,NA,NA,162,NA,15,NA,NA,NA,NA,NA,
+266,2023-05-05,10,Vancouver,5,NA,NA,534,NA,34,NA,NA,NA,NA,NA,
+267,2023-05-05,10,Vancouver,6,NA,NA,1145,NA,38,NA,NA,NA,NA,NA,
+268,2023-05-05,10,Vancouver,7,NA,NA,467,NA,28,NA,NA,NA,NA,NA,
+269,2023-05-05,10,Vancouver,8,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,
+270,2023-05-05,10,Vancouver,9,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,
+271,2023-05-05,10,Vancouver,10,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,
+272,2023-05-05,12,Oyster River,1,NA,NA,365,NA,30,NA,NA,NA,NA,NA,
+273,2023-05-05,12,Oyster River,2,NA,NA,452,NA,23,NA,NA,NA,NA,NA,
+274,2023-05-05,12,Oyster River,3,NA,NA,454,NA,24,NA,NA,NA,NA,NA,
+275,2023-05-05,12,Oyster River,4,NA,NA,503,NA,29,NA,NA,NA,NA,NA,
+276,2023-05-05,12,Oyster River,5,NA,NA,370,NA,19,NA,NA,NA,NA,NA,
+277,2023-05-05,12,Oyster River,6,NA,NA,650,NA,38,NA,NA,NA,NA,NA,
+278,2023-05-05,12,Oyster River,7,NA,NA,378,NA,29,NA,NA,NA,NA,NA,
+279,2023-05-05,12,Oyster River,8,NA,NA,405,NA,39,NA,NA,NA,NA,NA,
+280,2023-05-05,12,Oyster River,9,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,
+281,2023-05-05,12,Oyster River,10,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,
+282,2023-05-23,1,Vancouver,1,NA,NA,215,NA,20,NA,0,0,1,no,
+283,2023-05-23,1,Vancouver,2,NA,NA,180,NA,19,NA,0,0,1,no,
+284,2023-05-23,1,Vancouver,3,NA,NA,505,NA,23,NA,0,0,2,no,
+285,2023-05-23,1,Vancouver,4,NA,NA,555,NA,32,NA,1,0,1,no,
+286,2023-05-23,1,Vancouver,5,NA,NA,845,NA,36,NA,1,0,2,no,
+287,2023-05-23,1,Vancouver,6,NA,NA,1372,NA,34,NA,1,0,1,no,
+288,2023-05-23,1,Vancouver,7,NA,NA,1477,NA,34,NA,1,0,3,no,
+289,2023-05-23,1,Vancouver,8,NA,NA,145,NA,30,NA,1,0,2,no,
+290,2023-05-23,3,Victoria,1,NA,NA,445,NA,36,NA,1,0,0,no,
+291,2023-05-23,3,Victoria,2,NA,NA,268,NA,29,NA,1,0,0,no,
+292,2023-05-23,3,Victoria,3,NA,NA,875,NA,52,NA,1,0,0,no,
+293,2023-05-23,3,Victoria,4,NA,NA,180,NA,19,NA,1,0,0,no,
+294,2023-05-23,3,Victoria,5,NA,NA,482,NA,35,NA,1,0,0,no,
+295,2023-05-23,3,Victoria,6,NA,NA,433,NA,33,NA,1,0,1,no,
+296,2023-05-23,3,Victoria,7,NA,NA,864,NA,39,NA,1,0,1,no,
+297,2023-05-23,3,Victoria,8,NA,NA,397,NA,36,NA,1,0,0,no,
+298,2023-05-23,5,Vancouver,1,NA,NA,1250,NA,41,NA,1,0,0,no,sori on one plant on liine 5
+299,2023-05-23,5,Vancouver,2,NA,NA,1500,NA,42,NA,1,0,1,no,sori on one plant on liine 5
+300,2023-05-23,5,Vancouver,3,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,sori on one plant on liine 5
+301,2023-05-23,5,Vancouver,4,NA,NA,1230,NA,34,NA,1,0,2,no,sori on one plant on liine 5
+302,2023-05-23,5,Vancouver,5,NA,NA,277,NA,20,NA,1,0,0,no,sori on one plant on liine 5
+303,2023-05-23,5,Vancouver,6,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,sori on one plant on liine 5
+304,2023-05-23,5,Vancouver,7,NA,NA,80,NA,29,NA,1,0,2,no,sori on one plant on liine 5
+305,2023-05-23,5,Vancouver,8,NA,NA,1603,NA,43,NA,1,0,1,no,sori on one plant on liine 5
+306,2023-05-23,7,Oyster River,1,NA,NA,232,NA,22,NA,1,0,0,no,
+307,2023-05-23,7,Oyster River,2,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,
+308,2023-05-23,7,Oyster River,3,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,
+309,2023-05-23,7,Oyster River,4,NA,NA,542,NA,40,NA,1,0,1,no,
+310,2023-05-23,7,Oyster River,5,NA,NA,500,NA,46,NA,1,0,0,no,
+311,2023-05-23,7,Oyster River,6,NA,NA,152,NA,16,NA,1,0,0,no,
+312,2023-05-23,7,Oyster River,7,NA,NA,349,NA,28,NA,1,0,0,no,
+313,2023-05-23,7,Oyster River,8,NA,NA,575,NA,34,NA,1,0,0,no,
+314,2023-05-23,9,Brown's Bay,1,NA,NA,695,NA,32,NA,1,0,0,no,
+315,2023-05-23,9,Brown's Bay,2,NA,NA,1000,NA,36,NA,1,0,1,no,
+316,2023-05-23,9,Brown's Bay,3,NA,NA,1604,NA,53,NA,1,1,2,no,
+317,2023-05-23,9,Brown's Bay,4,NA,NA,1265,NA,58,NA,1,2,2,no,
+318,2023-05-23,9,Brown's Bay,5,NA,NA,1020,NA,42,NA,1,2,2,no,
+319,2023-05-23,9,Brown's Bay,6,NA,NA,463,NA,30,NA,1,1,2,no,
+320,2023-05-23,9,Brown's Bay,7,NA,NA,590,NA,32,NA,1,0,1,no,
+321,2023-05-23,9,Brown's Bay,8,NA,NA,2580,NA,49,NA,1,2,2,no,
+322,2023-05-24,2,Oyster River,1,NA,NA,65,NA,32,NA,0,0,0,no,
+323,2023-05-24,2,Oyster River,2,NA,NA,575,NA,32,NA,1,0,0,no,
+324,2023-05-24,2,Oyster River,3,NA,NA,640,NA,32,NA,1,0,0,no,
+325,2023-05-24,2,Oyster River,4,NA,NA,1720,NA,45,NA,1,2,2,no,
+326,2023-05-24,2,Oyster River,5,NA,NA,269,NA,21,NA,1,0,0,no,
+327,2023-05-24,2,Oyster River,6,NA,NA,749,NA,37,NA,1,1,0,no,
+328,2023-05-24,2,Oyster River,7,NA,NA,800,NA,36,NA,1,0,1,no,
+329,2023-05-24,2,Oyster River,8,NA,NA,23,NA,21,NA,1,0,0,no,
+330,2023-05-24,4,Brown's Bay,1,NA,NA,955,NA,35,NA,1,1,1,no,
+331,2023-05-24,4,Brown's Bay,2,NA,NA,492,NA,30,NA,1,0,0,no,
+332,2023-05-24,4,Brown's Bay,3,NA,NA,1390,NA,32,NA,1,0,0,no,
+333,2023-05-24,4,Brown's Bay,4,NA,NA,2640,NA,58,NA,1,1,1,no,
+334,2023-05-24,4,Brown's Bay,5,NA,NA,375,NA,24,NA,1,0,1,no,
+335,2023-05-24,4,Brown's Bay,6,NA,NA,760,NA,33,NA,1,0,1,no,
+336,2023-05-24,4,Brown's Bay,7,NA,NA,2240,NA,52,NA,2,2,1,no,
+337,2023-05-24,4,Brown's Bay,8,NA,NA,640,NA,44,NA,1,1,2,no,
+338,2023-05-24,6,Victoria,1,NA,NA,187,NA,9,NA,1,0,1,no,
+339,2023-05-24,6,Victoria,2,NA,NA,123,NA,18,NA,0,0,1,no,
+340,2023-05-24,6,Victoria,3,NA,NA,453,NA,24,NA,1,0,0,no,
+341,2023-05-24,6,Victoria,4,NA,NA,269,NA,21,NA,0,0,0,no,
+342,2023-05-24,6,Victoria,5,NA,NA,360,NA,25,NA,0,0,0,no,
+343,2023-05-24,6,Victoria,6,NA,NA,594,NA,27,NA,1,1,1,no,
+344,2023-05-24,6,Victoria,7,NA,NA,1060,NA,54,NA,1,1,2,no,
+345,2023-05-24,6,Victoria,8,NA,NA,1740,NA,58,NA,2,2,2,no,
+346,2023-05-24,8,Brown's Bay,1,NA,NA,1380,NA,46,NA,1,2,2,no,
+347,2023-05-24,8,Brown's Bay,2,NA,NA,875,NA,41,NA,1,0,1,no,
+348,2023-05-24,8,Brown's Bay,3,NA,NA,705,NA,522,NA,1,0,1,no,
+349,2023-05-24,8,Brown's Bay,4,NA,NA,3390,NA,51,NA,1,0,1,no,
+350,2023-05-24,8,Brown's Bay,5,NA,NA,2420,NA,61,NA,1,1,1,no,
+351,2023-05-24,8,Brown's Bay,6,NA,NA,3388,NA,62,NA,1,1,1,yes,
+352,2023-05-24,8,Brown's Bay,7,NA,NA,2540,NA,56,NA,1,1,1,no,
+353,2023-05-24,8,Brown's Bay,8,NA,NA,392,NA,23,NA,1,0,1,no,
+354,2023-05-24,10,Vancouver,1,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,
+355,2023-05-24,10,Vancouver,2,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,
+356,2023-05-24,10,Vancouver,3,NA,NA,361,NA,28,NA,1,0,0,no,
+357,2023-05-24,10,Vancouver,4,NA,NA,313,NA,26,NA,1,0,0,no,
+358,2023-05-24,10,Vancouver,5,NA,NA,381,NA,26,NA,1,0,0,no,
+359,2023-05-24,10,Vancouver,6,NA,NA,373,NA,29,NA,1,0,0,no,
+360,2023-05-24,10,Vancouver,7,NA,NA,1585,NA,47,NA,1,1,0,no,
+361,2023-05-24,10,Vancouver,8,NA,NA,1043,NA,43,NA,1,1,0,no,
+362,2023-05-24,12,Oyster River,1,NA,NA,442,NA,24,NA,1,0,0,no,
+363,2023-05-24,12,Oyster River,2,NA,NA,224,NA,18,NA,1,0,0,no,
+364,2023-05-24,12,Oyster River,3,NA,NA,443,NA,29,NA,1,1,1,no,
+365,2023-05-24,12,Oyster River,4,NA,NA,812,NA,39,NA,1,1,0,no,
+366,2023-05-24,12,Oyster River,5,NA,NA,471,NA,32,NA,1,1,1,no,
+367,2023-05-24,12,Oyster River,6,NA,NA,202,NA,19,NA,1,0,0,no,
+368,2023-05-24,12,Oyster River,7,NA,NA,975,NA,55,NA,1,1,1,no,
+369,2023-05-24,12,Oyster River,8,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,
+370,2023-05-24,14,Gabriola,1,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,
+371,2023-05-24,14,Gabriola,2,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,
+372,2023-05-24,14,Gabriola,3,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,
+373,2023-05-24,14,Gabriola,4,NA,NA,1730,NA,56,NA,1,1,2,no,
+374,2023-05-24,14,Gabriola,5,NA,NA,54,NA,1982,NA,1,1,2,no,
+375,2023-05-24,14,Gabriola,6,NA,NA,1389,NA,56,NA,1,1,2,no,
+376,2023-05-24,14,Gabriola,7,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,
+377,2023-05-24,14,Gabriola,8,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,
+378,2023-05-24,13,Gabriola,1,NA,NA,517,NA,43,NA,1,1,2,no,
+379,2023-05-24,13,Gabriola,2,NA,NA,387,NA,37,NA,1,1,1,no,
+380,2023-05-24,13,Gabriola,3,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,
+381,2023-05-24,13,Gabriola,4,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,
+382,2023-05-24,13,Gabriola,5,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,
+383,2023-05-24,13,Gabriola,6,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,
+384,2023-05-24,13,Gabriola,7,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,
+385,2023-05-24,13,Gabriola,8,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,
+386,2023-05-24,11,Victoria,1,NA,NA,683,NA,39,NA,1,0,1,no,
+387,2023-05-24,11,Victoria,2,NA,NA,236,NA,24,NA,1,1,2,no,
+388,2023-05-24,11,Victoria,3,NA,NA,1302,NA,47,NA,1,2,1,no,
+389,2023-05-24,11,Victoria,4,NA,NA,1042,NA,36,NA,1,1,1,no,
+390,2023-05-24,11,Victoria,5,NA,NA,357,NA,29,NA,1,0,0,no,
+391,2023-05-24,11,Victoria,6,NA,NA,857,NA,39,NA,1,0,1,no,
+392,2023-05-24,11,Victoria,7,NA,NA,280,NA,35,NA,1,0,1,no,
+393,2023-05-24,11,Victoria,8,NA,NA,409,NA,42,NA,1,0,1,no,
