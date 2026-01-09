@@ -1,12 +1,13 @@
 # PLOTTING TEMPERATURE
 # Lauren Dykman
-# Oct 30, 2023
+# Created: Oct 30, 2023
+# Modified: Jan 09, 2026
 
 rm(list=ls())
 
 # INSTALLING PACKAGES
 
-install.packages("ggplot2")
+#install.packages("ggplot2")
 
 # ACCESSING LIBRARIES
 

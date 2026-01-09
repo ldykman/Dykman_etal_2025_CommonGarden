@@ -3,7 +3,7 @@
 # This script runs statistical analyses for Hornby Island Seeded line kelp lengths.
 # Lauren Dykman
 # Created: May 8, 2023
-# Modified: April 23, 2024
+# Modified: Jan 9, 2026
 
 rm(list=ls())
 
@@ -12,10 +12,20 @@ rm(list=ls())
 #install.packages("tidyverse")
 #install.packages("lme4")
 #install.packages("multcomp")
+#install.packages("DHARMa")
+#install.packages("glmmTMB")
+#install.packages("TMB")
+#install.packages("lmerTest")
+#install.packages("rstatix")
 
 library(tidyverse)
 library(lme4)
 library(multcomp)
+library(DHARMa)
+library(glmmTMB)
+library(TMB)
+library(lmerTest)
+library(rstatix)
 
 # SETTING WORKING DIRECTORY
 
@@ -92,25 +102,81 @@ ggsave(paste(path, "Figures", paste0("Figure_Kelp_Length_SeededLines_Barplot_", 
                panel.background = element_rect(fill = "transparent", colour = NA),
                plot.background = element_rect(fill = "transparent", colour = NA)), height=6, width=8) # Setting the theme
 
-data.counts$stipe_with_float_cm <- data.counts$stipe_with_float_cm + 0.001
+# Shifting data slightly to avoid zeros
+
+data.counts$stipe_with_float_cm_adjusted <- log(data.counts$stipe_with_float_cm + 1)
+
+# The first timepoint
 
 data.length.first <- data.counts[data.counts$days_old == "70",]
-glm.results.first <- glmer(stipe_with_float_cm ~ population + (1|plot_no), data.length.first, family = Gamma)
+glm.results.first <- lmer(stipe_with_float_cm_adjusted ~ population + (1|plot_no), data.length.first)
 summary(glm.results.first)
+
+results <- data.length.first %>%
+  group_by(population) %>%
+  shapiro_test(stipe_with_float_cm_adjusted) # 
+
+ggsave(paste(path, "Figures", paste0("Figure_Kelp_Length_Hornby_Histogram_Time1_", format(Sys.Date(), "%Y-%m-%d"), ".pdf"), sep = "/"),
+       ggplot(data.length.first, aes(x = stipe_with_float_cm_adjusted)) +
+         geom_histogram(binwidth = 0.1, fill = "skyblue", color = "black") +
+         facet_wrap(~population, ncol = 1) + # Creates a separate plot for each factor level, arranged in a single column
+         labs(title = "Histogram of Stipe Length",
+              x = "Value",
+              y = "Frequency") +
+         theme_minimal(), height=5, width=3) # Setting the theme
+
+simulationOutput <- simulateResiduals(fittedModel = glm.results.first, plot = F, re.form = NULL)
+plot(simulationOutput) # No significant values found
 
 comp.test <- glht(glm.results.first, mcp(population="Tukey"))
 summary(comp.test)
 
+# The second timepoint
+
 data.length.second <- data.counts[data.counts$days_old == "120",]
-glm.results.second <- glmer(stipe_with_float_cm ~ population + (1|plot_no), data.length.second, family = Gamma)
+glm.results.second <- lmer(stipe_with_float_cm_adjusted ~ population + (1|plot_no), data.length.second)
 summary(glm.results.second)
+
+results <- data.length.second %>%
+  group_by(population) %>%
+  shapiro_test(stipe_with_float_cm_adjusted) # 
+
+ggsave(paste(path, "Figures", paste0("Figure_Kelp_Length_Hornby_Histogram_Time2_", format(Sys.Date(), "%Y-%m-%d"), ".pdf"), sep = "/"),
+       ggplot(data.length.second, aes(x = stipe_with_float_cm)) +
+         geom_histogram(binwidth = 20, fill = "skyblue", color = "black") +
+         facet_wrap(~population, ncol = 1) + # Creates a separate plot for each factor level, arranged in a single column
+         labs(title = "Histogram of Stipe Length",
+              x = "Value",
+              y = "Frequency") +
+         theme_minimal(), height=5, width=3) # Setting the theme
+
+simulationOutput <- simulateResiduals(fittedModel = glm.results.second, plot = F, re.form = NULL)
+plot(simulationOutput) # No significant values found
 
 comp.test <- glht(glm.results.second, mcp(population="Tukey"))
 summary(comp.test)
 
+# The third timepoint
+
 data.length.third <- data.counts[data.counts$days_old == "140",]
-glm.results.third <- glmer(stipe_with_float_cm/10 ~ population + (1|plot_no), data.length.third, family = Gamma) # Had to divide by 10 because dispersion was too high to run.
+glm.results.third <- lmer(stipe_with_float_cm_adjusted ~ population + (1|plot_no), data.length.third) # Had to divide by 10 because dispersion was too high to run.
 summary(glm.results.third)
+
+results <- data.length.third %>%
+  group_by(population) %>%
+  shapiro_test(stipe_with_float_cm_adjusted) # 
+
+ggsave(paste(path, "Figures", paste0("Figure_Kelp_Length_Hornby_Histogram_Time3_", format(Sys.Date(), "%Y-%m-%d"), ".pdf"), sep = "/"),
+       ggplot(data.length.third, aes(x = stipe_with_float_cm_adjusted)) +
+         geom_histogram(binwidth = 0.5, fill = "skyblue", color = "black") +
+         facet_wrap(~population, ncol = 1) + # Creates a separate plot for each factor level, arranged in a single column
+         labs(title = "Histogram of Stipe Length",
+              x = "Value",
+              y = "Frequency") +
+         theme_minimal(), height=5, width=3) # Setting the theme
+
+simulationOutput <- simulateResiduals(fittedModel = glm.results.third, plot = F, re.form = NULL)
+plot(simulationOutput) # No significant values found
 
 comp.test <- glht(glm.results.third, mcp(population="Tukey"))
 summary(comp.test)

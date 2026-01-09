@@ -11,6 +11,7 @@ rm(list=ls())
 #install.packages("dplyr")
 #install.packages("lme4")
 #install.packages("multcomp")
+#install.packages("DHARMa")
 
 # ACCESSING LIBRARIES
 
@@ -18,6 +19,7 @@ library(ggplot2)
 library(dplyr)
 library(lme4)
 library(multcomp)
+library(DHARMa)
 
 # SETTING WORKING DIRECTORY
 
@@ -77,6 +79,8 @@ data.error$se <-data.error$sd/sqrt(data.error$n)
 # Order the population so plot shows locations closest to Hornby on left and furthest on right
 data.error$population <- factor(data.error$population, levels = c("Oyster River", "Gabriola", "Browns Bay", "Vancouver", "Victoria"))
 
+par(mar = c(1,1,1,1))
+
 ggsave(paste(path, "Figures", paste0("Figure_Kelp_BladeBleaching_Hornby_Darkness_", format(Sys.Date(), "%Y-%m-%d"), ".pdf"), sep = "/"),
        ggplot(data.error, aes(fill = population, x=population, y=mean)) +
          geom_bar(stat = "identity", position = position_dodge(), color = "black", show.legend = FALSE, width = 0.6) +
@@ -99,6 +103,9 @@ ggsave(paste(path, "Figures", paste0("Figure_Kelp_BladeBleaching_Hornby_Darkness
 glm.results <- glmer(mean_darkness_normalized ~ population + (1|line), data=data.simple, family=Gamma)
 summary(glm.results) # Nothing significant except almost Victoria
 
+simulationOutput <- simulateResiduals(fittedModel = glm.results, plot = F, re.form = NULL)
+plot(simulationOutput) # No significant values found
+
 # PLOTTING AVERAGE BLADE WEIGHT
 
 # Calculate the mean and standard deviation and standard error of hole punch weight for each population
@@ -114,6 +121,8 @@ data.error$se <-data.error$sd/sqrt(data.error$n)
 
 # Order the population so plot shows locations closest to Hornby on left and furthest on right
 data.error$population <- factor(data.error$population, levels = c("Oyster River", "Gabriola", "Browns Bay", "Vancouver", "Victoria"))
+
+par(mar = c(1,1,1,1))
 
 ggsave(paste(path, "Figures", paste0("Figure_Kelp_BladeBleaching_Hornby_HolePunchWeight_", format(Sys.Date(), "%Y-%m-%d"), ".pdf"), sep = "/"),
        ggplot(data.error, aes(fill = population, x=population, y=mean)) +
@@ -136,6 +145,9 @@ ggsave(paste(path, "Figures", paste0("Figure_Kelp_BladeBleaching_Hornby_HolePunc
 glm.results <- glmer(weight_of_hole_punch_mg ~ population + (1|line), data=data.simple, family=Gamma)
 summary(glm.results)
 # Nothing significant
+
+simulationOutput <- simulateResiduals(fittedModel = glm.results, plot = F, re.form = NULL)
+plot(simulationOutput) # No significant values found
 
 # ANALYZING TOTAL BLADE AREA
 
@@ -161,6 +173,8 @@ data.error$se <-data.error$sd/sqrt(data.error$n)
 # Order the population so plot shows locations closest to Hornby on left and furthest on right
 data.error$population <- factor(data.error$population, levels = c("Oyster River", "Gabriola", "Browns Bay", "Vancouver", "Victoria"))
 
+par(mar = c(1,1,1,1))
+
 ggsave(paste(path, "Figures", paste0("Figure_Kelp_BladeBleaching_Hornby_BladeArea_", format(Sys.Date(), "%Y-%m-%d"), ".pdf"), sep = "/"),
        ggplot(data.error, aes(fill = population, x=population, y=mean)) +
          geom_bar(stat = "identity", position = position_dodge(), color = "black", show.legend = FALSE, width = 0.6) +
@@ -181,6 +195,9 @@ ggsave(paste(path, "Figures", paste0("Figure_Kelp_BladeBleaching_Hornby_BladeAre
 # Generalized linear mixed effect model for significance in hole punch weight
 glm.results <- glmer(area_cm2/10 ~ population + (1|line), data=data.area, family=Gamma)
 summary(glm.results)
+
+simulationOutput <- simulateResiduals(fittedModel = glm.results, plot = F, re.form = NULL)
+plot(simulationOutput)
 
 # Oyster river significant
 comp.test <- glht(glm.results, linfct = mcp(population="Tukey"))
